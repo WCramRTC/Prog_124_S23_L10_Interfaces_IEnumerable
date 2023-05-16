@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Demonstration demo = new Demonstration();
+
+            foreach (string d in demo)
+            {
+                Console.WriteLine(d);
+            }
         }
     }
 }
